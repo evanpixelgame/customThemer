@@ -1,0 +1,292 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Default Theme (dark) */
+  --primary-bg-color: #3b3b3b;
+  --secondary-bg-color: #343434;
+  --primary-accent-color: #9995db;
+  --secondary-accent-color: #ed6a5a;
+  --tertiary-accent-color: #fb8b24;
+
+  --primary-font-family: "Roboto";
+  --primary-text-color: #b4b4b4;
+  --secondary-text-color: #ffffff;
+  --main-text-font-size: 40px;
+  --sub-text-font-size: 16px;
+
+  --site-title-font-family: "Roboto";
+  --site-title-color: #ce721d;
+  --site-title-font-size: 24px;
+  --site-title-pad-left: 1%;
+
+  --nav-bg-color: #f5f5f5;
+  --nav-link-color: #3b3b3b;
+  --nav-link-font-family: "Inter";
+
+  --header-width: 80%;
+  --header-height: 15%;
+  --header-bg-color: #343434;
+
+  --footer-width: 80%;
+  --footer-height: 15%;
+  --footer-bg-color: #343434;
+
+  --toggle-placement-top: 5%;
+  --toggle-placement-right: 5%;
+
+  --theme-selector-bg-color: #8b85d5;
+
+  --side-border-bg-color: #343434;
+  --side-border-display: none;
+
+  --social-links-gap: 20%;
+}
+
+.light,
+.no-bars-light,
+.full-bars-light,
+.full-border-light {
+  /* light theme */
+  --primary-bg-color: #d3d3d3;
+  --secondary-bg-color: #b4b4b4;
+  --primary-accent-color: #9995db;
+  --secondary-accent-color: #ed6a5a;
+  --tertiary-accent-color: #fb8b24;
+
+  --primary-font-family: "Roboto";
+  --primary-text-color: #3b3b3b;
+  --secondary-text-color: #ffffff;
+  --main-text-font-size: 40px;
+  --sub-text-font-size: 16px;
+
+  --site-title-font-family: "Roboto";
+  --site-title-color: #ce721d;
+  --site-title-font-size: 24px;
+
+  --nav-bg-color: #f5f5f5;
+  --nav-link-color: #3b3b3b;
+  --nav-link-font-family: "Inter";
+
+  --header-width: 80%;
+  --header-height: 15%;
+  --header-bg-color: #b4b4b4;
+
+  --footer-width: 80%;
+  --footer-height: 15%;
+  --footer-bg-color: #b4b4b4;
+
+  --toggle-placement-top: 5%;
+  --toggle-placement-right: 5%;
+
+  --theme-selector-bg-color: #8b85d5;
+
+  --side-border-bg-color: #343434;
+  --side-border-display: none;
+
+  --social-links-gap: 20%;
+}
+
+.no-bars-light,
+.no-bars-dark {
+  --footer-bg-color: none;
+  --header-bg-color: none;
+}
+
+.full-bars-light,
+.full-bars-dark {
+  --header-width: 100%;
+  --footer-width: 100%;
+  --site-title-pad-left: 10%;
+  --toggle-placement-right: 10%;
+}
+
+.test-theme-1 {
+  /* Default Theme (dark) backup */
+  --primary-bg-color: #3b3b3b;
+  --secondary-bg-color: #343434;
+  --primary-accent-color: #9995db;
+  --secondary-accent-color: #ed6a5a;
+  --tertiary-accent-color: #fb8b24;
+
+  --primary-font-family: "Roboto";
+  --primary-text-color: #b4b4b4;
+  --secondary-text-color: #ffffff;
+  --main-text-font-size: 40px;
+  --sub-text-font-size: 16px;
+
+  --site-title-font-family: "Roboto";
+  --site-title-color: #ce721d;
+  --site-title-font-size: 24px;
+  --site-title-pad-left: 1%;
+
+  --nav-bg-color: #f5f5f5;
+  --nav-link-color: #3b3b3b;
+  --nav-link-font-family: "Inter";
+
+  --header-width: 80%;
+  --header-height: 15%;
+  --header-bg-color: #343434;
+
+  --footer-width: 80%;
+  --footer-height: 15%;
+  --footer-bg-color: #343434;
+
+  --toggle-placement-top: 5%;
+  --toggle-placement-right: 5%;
+
+  --theme-selector-bg-color: #8b85d5;
+
+  --side-border-bg-color: #343434;
+  --side-border-display: none;
+
+  --social-links-gap: 20%;
+}
+
+.test-theme-2 {
+  /* Default Theme (dark) backup */
+  --primary-bg-color: #3b3b3b;
+  --secondary-bg-color: #343434;
+  --primary-accent-color: #9995db;
+  --secondary-accent-color: #ed6a5a;
+  --tertiary-accent-color: #fb8b24;
+
+  --primary-font-family: "Roboto";
+  --primary-text-color: #b4b4b4;
+  --secondary-text-color: #ffffff;
+  --main-text-font-size: 40px;
+  --sub-text-font-size: 16px;
+
+  --site-title-font-family: "Roboto";
+  --site-title-color: #ce721d;
+  --site-title-font-size: 24px;
+  --site-title-pad-left: 1%;
+
+  --nav-bg-color: #f5f5f5;
+  --nav-link-color: #3b3b3b;
+  --nav-link-font-family: "Inter";
+
+  --header-width: 80%;
+  --header-height: 15%;
+  --header-bg-color: #343434;
+
+  --footer-width: 80%;
+  --footer-height: 15%;
+  --footer-bg-color: #343434;
+
+  --toggle-placement-top: 5%;
+  --toggle-placement-right: 5%;
+
+  --theme-selector-bg-color: #8b85d5;
+
+  --side-border-bg-color: #343434;
+  --side-border-display: none;
+
+  --social-links-gap: 20%;
+}
+
+.backup-dark {
+  /* Default Theme (dark) backup */
+  --primary-bg-color: #3b3b3b;
+  --secondary-bg-color: #343434;
+  --primary-accent-color: #9995db;
+  --secondary-accent-color: #ed6a5a;
+  --tertiary-accent-color: #fb8b24;
+
+  --primary-font-family: "Roboto";
+  --primary-text-color: #b4b4b4;
+  --secondary-text-color: #ffffff;
+  --main-text-font-size: 40px;
+  --sub-text-font-size: 16px;
+
+  --site-title-font-family: "Roboto";
+  --site-title-color: #ce721d;
+  --site-title-font-size: 24px;
+  --site-title-pad-left: 1%;
+
+  --nav-bg-color: #f5f5f5;
+  --nav-link-color: #3b3b3b;
+  --nav-link-font-family: "Inter";
+
+  --header-width: 80%;
+  --header-height: 15%;
+  --header-bg-color: #343434;
+
+  --footer-width: 80%;
+  --footer-height: 15%;
+  --footer-bg-color: #343434;
+
+  --toggle-placement-top: 5%;
+  --toggle-placement-right: 5%;
+
+  --theme-selector-bg-color: #8b85d5;
+
+  --side-border-bg-color: #343434;
+  --side-border-display: none;
+
+  --social-links-gap: 20%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

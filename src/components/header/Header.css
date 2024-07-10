@@ -1,0 +1,97 @@
+#header {
+  position: absolute;
+  width: var(--header-width);
+  height: var(--header-height);
+  left: calc(50% - var(--header-width) / 2);
+  top: 0px;
+
+  background: var(--header-bg-color);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#siteTitle {
+  font-family: var(--site-title-font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--site-title-font-size);
+  line-height: 28px;
+
+  padding-bottom: 3%;
+  padding-left: var(--site-title-pad-left);
+  color: var(--site-title-color);
+  opacity: 0.9;
+}
+
+#navBar {
+  /* NavBarPillBox */
+
+  box-sizing: border-box;
+
+  position: relative;
+  width: 40%;
+  height: 50%;
+
+  background: var(--nav-bg-color);
+  border: 1px solid #d3d3d3;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navBar ul {
+  display: flex; /* Use Flexbox for <ul> */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+#navBar ul li {
+  margin-right: 20px; /* Adjust spacing between list items */
+}
+
+#navBar ul li:last-child {
+  margin-right: 0; /* Remove margin from last list item */
+}
+
+#navBar ul li a {
+  text-decoration: none; /* Remove underline from links */
+  font-family: var(--nav-link-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+
+  color: var(--nav-link-color);
+}
+
+#toggleDiv {
+  /* LightDarkToggle */
+
+  position: relative;
+  top: var(--toggle-placement-top);
+  right: var(--toggle-placement-right);
+  padding-bottom: 3%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  left: 95.83%;
+  right: -87.5%;
+  top: 20.83%;
+  bottom: 20.83%;
+  width: 24px;
+  height: 24px;
+}
